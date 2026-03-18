@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Load model
-model = load_model("model/plants_disease_model.h5")
+model = load_model("model/plants_disease_model.h5", compile=false)
 
 # Automatically load class names from dataset folders
 dataset_path = "C:/Users/ACER/Desktop/SmartKrishi/PlantVillage/train"
